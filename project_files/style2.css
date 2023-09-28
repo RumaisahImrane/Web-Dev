@@ -1,0 +1,9 @@
+h2 {
+	color: seagreen;
+}
+
+p {
+	color: cadetblue;
+	text-align: center;
+	border: 5px solid rgb(180, 204, 226);
+}

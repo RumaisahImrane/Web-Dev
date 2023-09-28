@@ -1,0 +1,20 @@
+/*Selector {
+	property: Value;
+}*/
+
+/* Add image to background */
+body {background-image: url(backgroundimage.jpg);
+	background-size: cover} /* Cover sizes the image to the screen */
+
+/* Change colour and border of heading */
+h2 {
+	color: palevioletred;
+	text-align: center; 
+	border: 5px dashed hotpink;
+	cursor: pointer; /* Changes to pointer when hovering over */
+}
+/* Change main body font */
+p {color: lightpink;}
+
+/* Remove bullet points */
+li {list-style: none;} 

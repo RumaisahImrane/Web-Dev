@@ -2,19 +2,43 @@
 	property: Value;
 }*/
 
+/* {text-align: right;} would move font to the right
+
 /* Add image to background */
 body {background-image: url(backgroundimage.jpg);
-	background-size: cover} /* Cover sizes the image to the screen */
+	background-size: cover} /* 'Cover' sizes the image to the screen */
 
-/* Change colour and border of heading */
-h2 {
-	color: palevioletred;
-	text-align: center; 
-	border: 5px dashed hotpink;
-	cursor: pointer; /* Changes to pointer when hovering over */
+/* Edit heading */
+h2 /* (,p) will add the same style to the p tag */
+{ 
+	color: palevioletred;	/* Change colour of heading */
+	text-align: center; /* Move text to the centre */
+	border: 5px dashed hotpink; /* Border around textbox */
+	cursor: pointer; /* Changes to pointer when hovering over text*/ 
 }
 /* Change main body font */
-p {color: lightpink;}
+p {color: lightpink;} /* can use website paletton to find colours */
+/* Can use Hex colour, or RGB (ratio red:blue:green) rgba (a for transparency) */
 
-/* Remove bullet points */
-li {list-style: none;} 
+
+li {
+	list-style: none; /* Remove bullet points */
+	/*block groups the items together*/
+display: inline-block;	/* Have text in line */
+}
+
+.webtext {
+	border: 5px dashed lightseagreen;
+}
+
+.active {
+	color: lightskyblue; /* top line text colour */
+}
+
+#div1 {
+	background: rgba(136, 45, 96, 0.2); /* 0.2 chnages opacity */
+}
+
+#div2 {
+	background: rgba(196, 158, 239, 0.2); /* 0.2 chnages opacity */
+}

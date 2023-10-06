@@ -1,9 +1,9 @@
 h2 {
-	color: seagreen;
+	color: seagreen; 		/* Change colour of heading text */
 }
 
 p {
-	color: cadetblue;
-	text-align: center;
-	border: 5px solid rgb(180, 204, 226);
+	color: cadetblue; 		/* Change colour */
+	text-align: center;		/* Text in the centre */
+	border: 5px solid rgb(180, 204, 226);	/* border around text box */
 }

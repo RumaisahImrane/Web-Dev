@@ -3,25 +3,36 @@
 <html>
 <head>
   <title>CSS</title>
-  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <style>
+    <!-- Changing background colour -->
+    <style> 
       li {background-color: rgb(239, 211, 211);}
     </style>
     <nav>
       <ul>
         <li>Home</li>
-        <li><a href="about.html">About</a></li>
+        <!-- Linking to other web pages -->
+        <li><a href="about.html">About</a></li> 
         <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
   </header>
   <section>
-    <h2>Home</h2>
-    <p> lorum </p>
-  </section>
+    <h2>Home</h2> <!-- header -->
+    <div id="div1">
+    <p class="webtext active"> lorum </p> <!-- main text -->
+    <p class="webtext"> lorum </p>
+    <p class="webtext"> lorum </p>
+  </div>
 
+  <div id="div2"> <!-- different fonts -->
+    <p class="webtext active"> lorum </p> <!-- main text -->
+    <p class="webtext"> lorum </p>
+    <p class="webtext"> lorum </p>
+  </div>
+  </section>
 </body>
 </html>

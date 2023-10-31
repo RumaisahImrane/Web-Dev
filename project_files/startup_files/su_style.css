@@ -1,0 +1,47 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*Background image*/
+  /*Dont want to repeat image, keep centred, keep it fixed to fill page with image */
+  background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+} /* Image now adpats to page */
+
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3em;
+  color: aliceblue;
+}
+
+/* horizontal line */
+hr {
+text-align: center;
+border-color:#db9f94;
+border-width: 13px;
+max-width: 300px;
+opacity: 40;
+}
+
+.btn {
+border: 2px solid aliceblue;
+border-radius: 300px; /* rounded edges */
+text-transform: lowercase;
+}
+
+.btn:hover {
+background-color: aliceblue;
+}
+
+.btn-xl {
+  padding: 3rem, 5rem;
+}
+
+.d-flex {
+  flex-direction: center;
+}

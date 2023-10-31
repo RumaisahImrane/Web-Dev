@@ -1,27 +1,31 @@
 CSS Cheat Sheet
 
 Reference:
+Selectors
 *https://www.w3schools.com/cssref/css_selectors.asp
 *https://css-tricks.com/almanac/
 
 Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
 
 
-.class
-#id
-*          <!-- all elements -->
+.class     <!-- select a group of elements and ensure they all have the same style -->
+#id        <!-- Only used once -->
+*          <!-- For all elements (i.e move everything right), but can be changed later on-->
 element    <!-- body is an element -->
 element, element    <!-- both h2, p to have these properties -->
 element element     <!-- h2 p, so all p's inside h2 will have this change -->
 element > element   <!-- h2>p, so all p's with parent h2 will have this change -->
 element + element   <!-- h2+p, p exactly after h2  -->
 :hover     <!-- will only see item when you scroll mouse over -->
-:last-child
+:last-child < 
 :first-child
-!important (not recommended)
+!important (not recommended) <!-- overrulles all orders, this command will not be changed -->
 
 
-What seletors win out in the cascade depends on:
--Specificity
+What selectors win out in the cascade depends on:
+-Specificity <!-- how speicifc is your selector -->
 -Importance
 -Source Order
+
+<!-- Amazing game to test selectors -->
+https://css-diner.netlify.app/

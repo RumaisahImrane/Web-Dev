@@ -1,9 +1,33 @@
+/* BACKGROUND Add image to background */
+body {background-image: url(backgroundimage.jpg);
+	background-size: cover} /* 'Cover' sizes the image to the screen */
+
+/* HEADER */
 h2 {
 	color: seagreen; 		/* Change colour of heading text */
+	text-align: left; /* Move text to the left */
 }
 
+/* BODY */
 p {
-	color: cadetblue; 		/* Change colour */
+	color: rgb(73, 110, 111); 		/* Change colour */
 	text-align: center;		/* Text in the centre */
 	border: 5px solid rgb(180, 204, 226);	/* border around text box */
+	background-color: rgb(225, 225, 218);
+	text-decoration: underline; /* All underlined */
+	text-transform: uppercase;	/* All uppercase */
+	line-height: 40px;			/* Edit spacing */
+	font-style: italic;			/* italics */
+	font-weight: 850;			/* bold */
+	font-size: large;			/* font size */
+	/* Two fonts available, if 1st not available, the second will be used */ 
+	/* 'Times New Roman', Times, serif; */
+	font-family: 'Nosifer', sans-serif;
+}
+img { /* Floats omage to wrapo around text */
+	float: left; 
+}
+footer {
+	color: blueviolet;
+	text-align: right;	
 }

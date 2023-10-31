@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex; /* Lets you display images side by side */
+    flex-wrap: wrap; /* images wrap around the screen */
+    justify-content: center; /* Justifies images to centre */
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    border-bottom: 2px solid palevioletred;
+    border-right: 2px dashed palevioletred;
+    width: 300px; /* Only under h1 */
+    text-align: center;
+    margin: 0px; /* no margin */
+    margin-top: 5px;
+}
+
+img {
+    width: 450px;
+    height: 400px;
+    margin: 10px; /* space bettween images */
+    transition: all 1s; /* want all images to transition in 1sec, will take longer for 2secs */
+}
+
+img:hover {
+    transform: scale(1.1); /* Hover to transform image by the scale of 1.1 */
+}

@@ -4,19 +4,21 @@
 
 /* {text-align: right;} would move font to the right
 
-/* Add image to background */
+/* BACKGROUND Add image to background */
 body {background-image: url(backgroundimage.jpg);
 	background-size: cover} /* 'Cover' sizes the image to the screen */
 
-/* Edit heading */
-h2 /* (,p) will add the same style to the p tag */
-{ 
+/* HEADING */
+/* (,p) will add the same style to the p tag */
+/* hover, allows you to see this when you scroll the mouse over */
+h2:hover { 
 	color: palevioletred;	/* Change colour of heading */
 	text-align: center; /* Move text to the centre */
 	border: 5px dashed hotpink; /* Border around textbox */
 	cursor: pointer; /* Changes to pointer when hovering over text*/ 
 }
-/* Change main body font */
+
+/* BODY Change main body font */
 p {color: lightpink;} /* can use website paletton to find colours */
 /* Can use Hex colour, or RGB (ratio red:blue:green) rgba (a for transparency) */
 
@@ -27,12 +29,18 @@ li {
 display: inline-block;	/* Have text in line */
 }
 
+/* :first-child will only for this to the first item */
+/* :last-child will only for this to the last item */
 .webtext {
 	border: 5px dashed lightseagreen;
 }
 
 .active {
 	color: lightskyblue; /* top line text colour */
+}
+
+.slow {
+	color: blueviolet;
 }
 
 #div1 {

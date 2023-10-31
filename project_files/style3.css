@@ -1,0 +1,25 @@
+
+/* HEADING */
+/* (,p) will add the same style to the p tag */
+h2 { 
+	color: palevioletred;	/* Change colour of heading */
+	text-align: center; /* Move text to the centre */
+	border: 5px dashed hotpink; /* Border around textbox */
+	cursor: pointer; /* Changes to pointer when hovering over text*/ 
+}
+
+.boxmodel {
+    border: 5px solid lightseagreen;
+    display: inline-block;	/* Have text in line */
+    /* Space within the box */
+    padding: 10px 23px 17px 13px; /* Top, right, bottom, left */
+    /* Space outside the box */
+    margin: 0px 20px; /* Top+bottom, left/right */
+}
+
+p {
+    font-size: 15px;
+}
+
+span { font-size: 2em; } /* equivelent to twice the containing element (P) */
+ /* 2rem is twice the root element  (HTML tag) */
